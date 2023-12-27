@@ -1,4 +1,5 @@
-use crate::component::{Blog, Home};
+use crate::app::blog::Blog;
+use crate::app::home::Home;
 use dioxus::prelude::*;
 use dioxus_router::prelude::Routable;
 
